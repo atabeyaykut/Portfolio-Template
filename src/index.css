@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    all: unset
+}
+
+li {
+    all: unset;
+}

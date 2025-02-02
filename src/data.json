@@ -1,0 +1,204 @@
+{
+    "en": {
+        "name": "Ata",
+        "heroSection": {
+            "greeting": "Hi!",
+            "intro": "I'm Sinem. I am a full-stack developer. I can craft solid and scalable frontend products. Let's meet!",
+            "profileImage": "",
+            "socials": [
+                {
+                    "logo": "LinkedIn.svg",
+                    "altText": "linkedin",
+                    "link": "www.linkedin.com"
+                },
+                {
+                    "logo": "Github-Dark.svg",
+                    "altText": "Github",
+                    "link": "www.github.com"
+                }
+            ],
+            "ctaHTML": "Currently looking for a job as a <strong>Front-end developer</strong>"
+        },
+        "skillsSection": {
+            "title": "Skills",
+            "skills": [
+                {
+                    "name": "HTML",
+                    "icon": "HTML.svg"
+                },
+                {
+                    "name": "CSS",
+                    "icon": "CSS.svg"
+                },
+                {
+                    "name": "Javascript",
+                    "icon": "JavaScript.svg"
+                },
+                {
+                    "name": "React",
+                    "icon": "React-Dark.svg"
+                },
+                {
+                    "name": "Redux",
+                    "icon": "Redux.svg"
+                },
+                {
+                    "name": "VS Code",
+                    "icon": "VS Code-Dark.svg"
+                },
+                {
+                    "name": "Figma",
+                    "icon": "Figma-Dark.svg"
+                },
+                {
+                    "name": "Discord",
+                    "icon": "Discord.svg"
+                }
+            ]
+        },
+        "profile": {
+            "information": {
+                "birthday": "15/08/1997",
+                "location": "Istanbul",
+                "education": "Trakya University-Food Engineering",
+                "role": "Full-stack"
+            },
+            "aboutme": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo error cum ratione, dolorem veritatis dolore. Cupiditate earum rem delectus quam reprehenderit eaque, sequi itaque ab pariatur nulla eligendi illu  In nostrum maxime quisquam nulla sequi corporis dolore? Voluptatum hic deleniti, rerum cum magni animi quo aspernatur fugiat amet quas delectus in magnam vitae expedita veritatis ex impedit nesciunt inventore.  Illum quibusdam magni neque quo nam odio, eius, velit tempore omnis voluptate reiciendis culpa minima laboriosam est voluptatem? Impedit sit dignissimos quas soluta doloribus, ipsum aut ex nulla consectetur voluptas."
+        },
+        "projects": {
+            "left": {
+                "title": "Exchange",
+                "desc": "Aliquid harum dignissimos expedita ducimus fugiat blanditiis ad autem? Labore excepturi voluptatibus, odio corporis itaque, exercitationem corrupti aliquid explicabo delectus, reprehenderit perspiciatis.",
+                "tags": [
+                    "react",
+                    "axios",
+                    "scss",
+                    "vercel"
+                ],
+                "url": "www.github.com",
+                "visit": "www.google.com",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
+            },
+            "right": {
+                "title": "Tic-Tac-Toe",
+                "desc": "Aliquid harum dignissimos expedita ducimus fugiat blanditiis ad autem? Labore excepturi voluptatibus, odio corporis itaque, exercitationem corrupti aliquid explicabo delectus, reprehenderit perspiciatis.",
+                "tags": [
+                    "react",
+                    "axios",
+                    "scss",
+                    "vercel"
+                ],
+                "url": "www.github.com",
+                "visit": "www.google.com",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
+            }
+        },
+        "contact": {
+            "github": "www.github.com",
+            "linkedin": "www.linkedin.com",
+            "email": "sevimlikurtsinem@gmail.com",
+            "personalBlog": "www.instagram.com"
+        }
+    },
+    "tr": {
+        "name": "Ata",
+        "heroSection": {
+            "greeting": "Merhaba!",
+            "intro": "Ben Sinem. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir ön yüz ürünleri geliştirebilirim. Tanışalım!",
+            "profileImage": "",
+            "socials": [
+                {
+                    "logo": "LinkedIn.svg",
+                    "altText": "linkedin",
+                    "link": "www.linkedin.com"
+                },
+                {
+                    "logo": "Github-Dark.svg",
+                    "altText": "Github",
+                    "link": "www.github.com"
+                }
+            ],
+            "ctaHTML": "Şu anda <strong>Front-end geliştirici</strong> olarak iş arıyorum."
+        },
+        "skillsSection": {
+            "title": "Beceriler",
+            "skills": [
+                {
+                    "name": "HTML",
+                    "icon": "HTML.svg"
+                },
+                {
+                    "name": "CSS",
+                    "icon": "CSS.svg"
+                },
+                {
+                    "name": "Javascript",
+                    "icon": "JavaScript.svg"
+                },
+                {
+                    "name": "React",
+                    "icon": "React-Dark.svg"
+                },
+                {
+                    "name": "Redux",
+                    "icon": "Redux.svg"
+                },
+                {
+                    "name": "VS Code",
+                    "icon": "VS Code-Dark.svg"
+                },
+                {
+                    "name": "Figma",
+                    "icon": "Figma-Dark.svg"
+                },
+                {
+                    "name": "Discord",
+                    "icon": "Discord.svg"
+                }
+            ]
+        },
+        "profile": {
+            "information": {
+                "birthday": "15/08/1997",
+                "location": "İstanbul",
+                "education": "Trakya Üniversitesi-Gıda Mühendisliği",
+                "role": "Full-stack"
+            },
+            "aboutme": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo error cum ratione, dolorem veritatis dolore. Cupiditate earum rem delectus quam reprehenderit eaque, sequi itaque ab pariatur nulla eligendi illu  In nostrum maxime quisquam nulla sequi corporis dolore? Voluptatum hic deleniti, rerum cum magni animi quo aspernatur fugiat amet quas delectus in magnam vitae expedita veritatis ex impedit nesciunt inventore.  Illum quibusdam magni neque quo nam odio, eius, velit tempore omnis voluptate reiciendis culpa minima laboriosam est voluptatem? Impedit sit dignissimos quas soluta doloribus, ipsum aut ex nulla consectetur voluptas."
+        },
+        "projects": {
+            "left": {
+                "title": "Exchange",
+                "desc": "Aliquid harum dignissimos expedita ducimus fugiat blanditiis ad autem? Labore excepturi voluptatibus, odio corporis itaque, exercitationem corrupti aliquid explicabo delectus, reprehenderit perspiciatis.",
+                "tags": [
+                    "react",
+                    "axios",
+                    "scss",
+                    "vercel"
+                ],
+                "url": "www.github.com",
+                "visit": "www.google.com",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
+            },
+            "right": {
+                "title": "Tic-Tac-Toe",
+                "desc": "Aliquid harum dignissimos expedita ducimus fugiat blanditiis ad autem? Labore excepturi voluptatibus, odio corporis itaque, exercitationem corrupti aliquid explicabo delectus, reprehenderit perspiciatis.",
+                "tags": [
+                    "react",
+                    "axios",
+                    "scss",
+                    "vercel"
+                ],
+                "url": "www.github.com",
+                "visit": "www.google.com",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
+            }
+        },
+        "contact": {
+            "github": "www.github.com",
+            "linkedin": "www.linkedin.com",
+            "email": "sevimlikurtsinem@gmail.com",
+            "personalBlog": "www.instagram.com"
+        }
+    }
+}
