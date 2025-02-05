@@ -1,16 +1,16 @@
 import React from 'react'
-import BasicInfo from './BasicInfo'
 
-function BasicInfos({ user }) {
+function BasicInfos({ info }) {
 
     return (
-        <div>
-            <ul>
-                {user.profile.basicInformation.content.map((info, index) => (
-                    <BasicInfo info={info} key={index} />
-                ))}
-            </ul>
-        </div>
+        <li>
+            <p>
+                {info.question}
+            </p>
+            <p>
+                {info.answer}
+            </p>
+        </li>
     )
 }
 

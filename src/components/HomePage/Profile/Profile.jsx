@@ -1,7 +1,7 @@
 import React from 'react'
 import { useUser } from '../../../contextAPI/UserContext'
-import BasicInfo from './BasicInfos'
 import AboutMe from './AboutMe'
+import BasicInfos from "./BasicInfos"
 
 function Profile() {
 
@@ -13,11 +13,15 @@ function Profile() {
                 {user.profile.basicInformation.title}
             </h3>
             <div>
-                <BasicInfo user={user} />
-                <AboutMe user={user} />
+                <ul className='grid grid-cols-2'>
+                    {user.profile.basicInformation.content.map((info, index) => (
+                        <BasicInfos info={info} key={index} />
+                    ))}
+                </ul>
+                <AboutMe aboutme={user.profile.aboutme} />
             </div>
         </div>
     )
 }
 
-export default Profile
+export default Profile 
