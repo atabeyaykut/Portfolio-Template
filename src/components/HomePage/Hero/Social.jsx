@@ -18,6 +18,7 @@ const socialIcons = {
 };
 
 function Social({ social }) {
+
     const link = social.link.toLowerCase();
     const Icon = Object.keys(socialIcons).find(key => link.includes(key));
     const iconName = Icon ? Icon.charAt(0).toUpperCase() + Icon.slice(1) : '';

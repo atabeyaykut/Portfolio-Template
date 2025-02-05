@@ -1,8 +1,13 @@
 import React from 'react'
 
-function AboutMe() {
+function AboutMe({ user }) {
+
     return (
-        <div>AboutMe</div>
+        <div>
+            <p>
+                {user.profile.aboutme}
+            </p>
+        </div>
     )
 }
 

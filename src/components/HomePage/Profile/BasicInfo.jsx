@@ -1,8 +1,15 @@
 import React from 'react'
 
-function BasicInfo() {
+function BasicInfo({ info }) {
     return (
-        <div>BasicInfo</div>
+        <li>
+            <p>
+                {info.question}
+            </p>
+            <p>
+                {info.answer}
+            </p>
+        </li>
     )
 }
 
