@@ -5,7 +5,7 @@ function BasicInfos({ user }) {
 
     return (
         <div>
-            <ul>
+            <ul className='grid grid-cols-2'>
                 {user.profile.basicInformation.content.map((info, index) => (
                     <BasicInfo info={info} key={index} />
                 ))}

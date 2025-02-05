@@ -1,6 +1,8 @@
 import React from 'react'
 import { useUser } from '../../../contextAPI/UserContext'
-import Socials from './Socials';
+import Socials from './Socials'
+import Cta from './cta';
+import Greetings from './Greetings';
 
 function Hero() {
 
@@ -9,18 +11,11 @@ function Hero() {
     return (
         <section className='flex flex-row items-center w-full h-full pt-4'>
             <div className='flex-2 flex flex-col gap-y-4 text-xl/4 tracking-tight pl-20 pb-6'>
-                <h1>{user.heroSection.greeting}</h1>
-                <h2 className='font-semibold text-2xl/7 w-148'>{user.heroSection.intro}</h2>
 
-                <Socials />
+                <Greetings hero={user.heroSection} />
+                <Socials hero={user.heroSection} />
+                <Cta hero={user.heroSection} />
 
-                <div
-                    dangerouslySetInnerHTML={{
-                        __html: user.heroSection.ctaHTML
-                    }}
-                    role="contentinfo"
-                    aria-labelledby="cta-message"
-                />
             </div>
 
             <div className='flex-1'>
