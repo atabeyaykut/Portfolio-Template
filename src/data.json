@@ -2,19 +2,21 @@
     "en": {
         "name": "Ata",
         "heroSection": {
-            "greeting": "Hi!",
-            "intro": "I'm Sinem. I am a full-stack developer. I can craft solid and scalable frontend products. Let's meet!",
-            "profileImage": "",
+            "greeting": "Hi! 👋🏻",
+            "intro": "I'm Ata. I am a full-stack developer. I can craft solid and scalable frontend products. Let's meet!",
+            "profileImage": "Avatar1.webp",
             "socials": [
                 {
-                    "logo": "LinkedIn.svg",
-                    "altText": "linkedin",
+                    "altText": "Linkedin",
                     "link": "www.linkedin.com"
                 },
                 {
-                    "logo": "Github-Dark.svg",
                     "altText": "Github",
                     "link": "www.github.com"
+                },
+                {
+                    "altText": "Github",
+                    "link": "www.youtube.com"
                 }
             ],
             "ctaHTML": "Currently looking for a job as a <strong>Front-end developer</strong>"
@@ -23,36 +25,36 @@
             "title": "Skills",
             "skills": [
                 {
-                    "name": "HTML",
-                    "icon": "HTML.svg"
+                    "logo": "HTML",
+                    "link": "HTML"
                 },
                 {
-                    "name": "CSS",
-                    "icon": "CSS.svg"
+                    "logo": "CSS",
+                    "link": "CSS"
                 },
                 {
-                    "name": "Javascript",
-                    "icon": "JavaScript.svg"
+                    "logo": "Javascript",
+                    "link": "JavaScript"
                 },
                 {
-                    "name": "React",
-                    "icon": "React-Dark.svg"
+                    "logo": "React",
+                    "link": "ReactDark"
                 },
                 {
-                    "name": "Redux",
-                    "icon": "Redux.svg"
+                    "logo": "Redux",
+                    "link": "Redux"
                 },
                 {
-                    "name": "VS Code",
-                    "icon": "VS Code-Dark.svg"
+                    "logo": "VSCode",
+                    "link": "VSCode"
                 },
                 {
-                    "name": "Figma",
-                    "icon": "Figma-Dark.svg"
+                    "logo": "Figma",
+                    "link": "Figma"
                 },
                 {
-                    "name": "Discord",
-                    "icon": "Discord.svg"
+                    "logo": "Discord",
+                    "link": "Discord"
                 }
             ]
         },
@@ -103,19 +105,21 @@
     "tr": {
         "name": "Ata",
         "heroSection": {
-            "greeting": "Merhaba!",
-            "intro": "Ben Sinem. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir ön yüz ürünleri geliştirebilirim. Tanışalım!",
-            "profileImage": "",
+            "greeting": "Merhaba! 👋🏻",
+            "intro": "Ben Ata. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir ön yüz ürünleri geliştirebilirim. Tanışalım!",
+            "profileImage": "Avatar1.webp",
             "socials": [
                 {
-                    "logo": "LinkedIn.svg",
-                    "altText": "linkedin",
+                    "altText": "LinkedIn",
                     "link": "www.linkedin.com"
                 },
                 {
-                    "logo": "Github-Dark.svg",
                     "altText": "Github",
                     "link": "www.github.com"
+                },
+                {
+                    "altText": "Youtube",
+                    "link": "www.youtube.com"
                 }
             ],
             "ctaHTML": "Şu anda <strong>Front-end geliştirici</strong> olarak iş arıyorum."
@@ -124,36 +128,36 @@
             "title": "Beceriler",
             "skills": [
                 {
-                    "name": "HTML",
-                    "icon": "HTML.svg"
+                    "logo": "HTML",
+                    "link": "HTML"
                 },
                 {
-                    "name": "CSS",
-                    "icon": "CSS.svg"
+                    "logo": "CSS",
+                    "link": "CSS"
                 },
                 {
-                    "name": "Javascript",
-                    "icon": "JavaScript.svg"
+                    "logo": "Javascript",
+                    "link": "JavaScript"
                 },
                 {
-                    "name": "React",
-                    "icon": "React-Dark.svg"
+                    "logo": "React",
+                    "link": "ReactDark"
                 },
                 {
-                    "name": "Redux",
-                    "icon": "Redux.svg"
+                    "logo": "Redux",
+                    "link": "Redux"
                 },
                 {
-                    "name": "VS Code",
-                    "icon": "VS Code-Dark.svg"
+                    "logo": "VSCode",
+                    "link": "VSCode"
                 },
                 {
-                    "name": "Figma",
-                    "icon": "Figma-Dark.svg"
+                    "logo": "Figma",
+                    "link": "Figma"
                 },
                 {
-                    "name": "Discord",
-                    "icon": "Discord.svg"
+                    "logo": "Discord",
+                    "link": "Discord"
                 }
             ]
         },
@@ -161,10 +165,10 @@
             "information": {
                 "birthday": "15/08/1997",
                 "location": "İstanbul",
-                "education": "Trakya Üniversitesi-Gıda Mühendisliği",
+                "education": "Trakya Üniversitesi - Gıda Mühendisliği",
                 "role": "Full-stack"
             },
-            "aboutme": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo error cum ratione, dolorem veritatis dolore. Cupiditate earum rem delectus quam reprehenderit eaque, sequi itaque ab pariatur nulla eligendi illu  In nostrum maxime quisquam nulla sequi corporis dolore? Voluptatum hic deleniti, rerum cum magni animi quo aspernatur fugiat amet quas delectus in magnam vitae expedita veritatis ex impedit nesciunt inventore.  Illum quibusdam magni neque quo nam odio, eius, velit tempore omnis voluptate reiciendis culpa minima laboriosam est voluptatem? Impedit sit dignissimos quas soluta doloribus, ipsum aut ex nulla consectetur voluptas."
+            "aboutme": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur illo error cum ratione, dolorem veritatis dolore. Cupiditate earum rem delectus quam reprehenderit eaque, sequi itaque ab pariatur nulla eligendi illo. In nostrum maxime quisquam nulla sequi corporis dolore? Voluptatum hic deleniti, rerum cum magni animi quo aspernatur fugiat amet quas delectus in magnam vitae expedita veritatis ex impedit nesciunt inventore. Illum quibusdam magni neque quo nam odio, eius, velit tempore omnis voluptate reiciendis culpa minima laboriosam est voluptatem? Impedit sit dignissimos quas soluta doloribus, ipsum aut ex nulla consectetur voluptas."
         },
         "projects": {
             "left": {

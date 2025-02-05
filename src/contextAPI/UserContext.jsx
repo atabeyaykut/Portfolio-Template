@@ -1,21 +1,14 @@
 import { createContext, useContext } from "react";
 import { useLanguage } from "./LanguageContext";
-
+import dataJSON from "../data.json"
 
 const UserContext = createContext()
 
 export const UserProvider = ({ children }) => {
 
-    const { localizedData } = useLanguage()
+    const { language } = useLanguage()
 
-    const user = localizedData ? {
-        name: localizedData.name,
-        heroSection: localizedData.heroSection,
-        skillsSection: localizedData.skillsSection,
-        profile: localizedData.profile,
-        projects: localizedData.projects,
-        contact: localizedData.contact,
-    } : {}
+    const user = dataJSON[language] ? dataJSON[language] : {}
 
     return (
         <UserContext.Provider value={{ user }}>
