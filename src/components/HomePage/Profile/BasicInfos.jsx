@@ -4,12 +4,8 @@ function BasicInfos({ info }) {
 
     return (
         <li>
-            <p>
-                {info.question}
-            </p>
-            <p>
-                {info.answer}
-            </p>
+            <p>{info.question}</p>
+            <p>{info.answer}</p>
         </li>
     )
 }
