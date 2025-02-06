@@ -1,6 +1,5 @@
 import React from 'react'
 import { useUser } from '../../../contextAPI/UserContext'
-import AboutMe from './AboutMe'
 import BasicInfos from "./BasicInfos"
 
 function Profile() {
@@ -18,7 +17,11 @@ function Profile() {
                         <BasicInfos info={info} key={index} />
                     ))}
                 </ul>
-                <AboutMe aboutme={user.profile.aboutme} />
+                <div>
+                    <p>
+                        {user.profile.basicInformation.aboutme}
+                    </p>
+                </div>
             </div>
         </div>
     )
