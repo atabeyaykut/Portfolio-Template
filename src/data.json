@@ -175,15 +175,11 @@
                 },
                 {
                     "logo": "React",
-                    "name": "ReactDark"
+                    "name": "React"
                 },
                 {
                     "logo": "Redux",
                     "name": "Redux"
-                },
-                {
-                    "logo": "VSCode",
-                    "name": "VSCode"
                 },
                 {
                     "logo": "Figma",
@@ -197,7 +193,7 @@
         },
         "profile": {
             "basicInformation": {
-                "title": "Profile",
+                "title": "Profil",
                 "content": [
                     {
                         "question": "Doğum Günü",
@@ -209,7 +205,7 @@
                     },
                     {
                         "question": "Eğitim Durumu",
-                        "answer": "Hacettepe Ünv. Biyoloji Lisans, 2016"
+                        "answer": "Hacettepe Üniversitesi - Biyoloji Lisans, 2016"
                     },
                     {
                         "question": "Tercih Edilen Rol",
@@ -217,41 +213,64 @@
                     }
                 ]
             },
-            "aboutme": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur illo error cum ratione, dolorem veritatis dolore. Cupiditate earum rem delectus quam reprehenderit eaque, sequi itaque ab pariatur nulla eligendi illo. In nostrum maxime quisquam nulla sequi corporis dolore? Voluptatum hic deleniti, rerum cum magni animi quo aspernatur fugiat amet quas delectus in magnam vitae expedita veritatis ex impedit nesciunt inventore. Illum quibusdam magni neque quo nam odio, eius, velit tempore omnis voluptate reiciendis culpa minima laboriosam est voluptatem? Impedit sit dignissimos quas soluta doloribus, ipsum aut ex nulla consectetur voluptas."
-        },
-        "projects": {
-            "left": {
-                "title": "Exchange",
-                "desc": "Aliquid harum dignissimos expedita ducimus fugiat blanditiis ad autem? Labore excepturi voluptatibus, odio corporis itaque, exercitationem corrupti aliquid explicabo delectus, reprehenderit perspiciatis.",
-                "tags": [
-                    "react",
-                    "axios",
-                    "scss",
-                    "vercel"
-                ],
-                "url": "www.github.com",
-                "visit": "www.google.com",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
-            },
-            "right": {
-                "title": "Tic-Tac-Toe",
-                "desc": "Aliquid harum dignissimos expedita ducimus fugiat blanditiis ad autem? Labore excepturi voluptatibus, odio corporis itaque, exercitationem corrupti aliquid explicabo delectus, reprehenderit perspiciatis.",
-                "tags": [
-                    "react",
-                    "axios",
-                    "scss",
-                    "vercel"
-                ],
-                "url": "www.github.com",
-                "visit": "www.google.com",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
+            "aboutme": {
+                "title": "Hakkımda",
+                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo error cum ratione, dolorem veritatis dolore. Cupiditate earum rem delectus quam reprehenderit eaque, sequi itaque ab pariatur nulla eligendi illo. In nostrum maxime quisquam nulla sequi corporis dolore? Voluptatum hic deleniti, rerum cum magni animi quo aspernatur fugiat amet quas delectus in magnam vitae expedita veritatis ex impedit nesciunt inventore. Illum quibusdam magni neque quo nam odio, eius, velit tempore omnis voluptate reiciendis culpa minima laboriosam est voluptatem? Impedit sit dignissimos quas soluta doloribus, ipsum aut ex nulla consectetur voluptas."
             }
         },
-        "contact": {
-            "github": "www.github.com",
-            "linkedin": "www.linkedin.com",
-            "email": "sevimlikurtsinem@gmail.com",
-            "personalBlog": "www.instagram.com"
+        "projects": {
+            "title": "Projeler",
+            "content": {
+                "left": {
+                    "title": "Döviz Çevirici",
+                    "desc": "Aliquid harum dignissimos expedita ducimus fugiat blanditiis ad autem? Labore excepturi voluptatibus, odio corporis itaque, exercitationem corrupti aliquid explicabo delectus, reprehenderit perspiciatis.",
+                    "tags": [
+                        "react",
+                        "axios",
+                        "scss",
+                        "vercel"
+                    ],
+                    "url": "www.github.com",
+                    "visit": "www.google.com",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
+                },
+                "right": {
+                    "title": "Tic-Tac-Toe",
+                    "desc": "Aliquid harum dignissimos expedita ducimus fugiat blanditiis ad autem? Labore excepturi voluptatibus, odio corporis itaque, exercitationem corrupti aliquid explicabo delectus, reprehenderit perspiciatis.",
+                    "tags": [
+                        "react",
+                        "axios",
+                        "scss",
+                        "vercel"
+                    ],
+                    "url": "www.github.com",
+                    "visit": "www.google.com",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
+                }
+            }
+        },
+        "footer": {
+            "slogan": "Birlikte bir sonraki ürününüz üzerinde çalışalım.",
+            "content": {
+                "contacts": {
+                    "contact-1": {
+                        "name": "Github",
+                        "link": "www.github.com"
+                    },
+                    "contact-2": {
+                        "name": "Kişisel Blog",
+                        "link": "www.instagram.com"
+                    },
+                    "contact-3": {
+                        "name": "LinkedIn",
+                        "link": "www.linkedin.com"
+                    },
+                    "contact-4": {
+                        "name": "E-posta",
+                        "link": "sevimlikurtsinem@gmail.com"
+                    }
+                }
+            }
         }
     }
 }
