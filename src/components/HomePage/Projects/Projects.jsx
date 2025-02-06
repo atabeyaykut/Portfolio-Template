@@ -1,8 +1,21 @@
 import React from 'react'
+import { useUser } from '../../../contextAPI/UserContext'
+import Project from './Project'
 
 function Projects() {
+    const { user } = useUser()
+
     return (
-        <div>Projects</div>
+        <div className='container mx-auto px-4 py-12'>
+            <h2 className='text-3xl font-semibold text-center mb-8'>{user.projects.title}</h2>
+
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+                {Object.values(user.projects.content).map((project, index) => (
+                    <Project project={project} key={index} />
+                ))
+                }
+            </div>
+        </div>
     )
 }
 
