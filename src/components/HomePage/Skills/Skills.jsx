@@ -7,18 +7,18 @@ function Skills() {
 
     return (
         <section
-            className='flex flex-col items-center gap-6 text-3xl'
+            className='flex flex-col items-center gap-4 md:gap-6 py-8'
             aria-labelledby="skills-heading"
         >
             <h2
                 id="skills-heading"
-                className='font-semibold'
+                className='text-2xl md:text-3xl font-semibold'
             >
                 {user.skillsSection.title}
             </h2>
 
             <ul
-                className='flex flex-row gap-4 justify-center aling-center'
+                className='flex flex-row flex-wrap justify-center gap-4 md:gap-6 px-4'
                 role="list"
                 aria-label="Technical skills"
             >

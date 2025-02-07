@@ -7,18 +7,18 @@ function Projects() {
 
     return (
         <section
-            className='container mx-auto px-10 py-12'
+            className='container mx-auto px-4 sm:px-6 lg:px-10 py-8 md:py-12'
             aria-labelledby="projects-heading"
         >
             <h2
                 id="projects-heading"
-                className='text-3xl font-semibold text-center pb- mb-8'
+                className='text-2xl md:text-3xl font-semibold text-center mb-6 md:mb-8'
             >
                 {user.projects.title}
             </h2>
 
             <div
-                className='grid grid-cols-1 md:grid-cols-2 gap-8'
+                className='grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8'
                 role="list"
                 aria-label="Projects showcase"
             >
