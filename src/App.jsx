@@ -3,9 +3,16 @@ import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import { useTheme } from './contextAPI/ThemeContext'
 import HomePage from './pages/HomePage'
+import { useUser } from './contextAPI/UserContext'
+import { useEffect } from 'react'
 
 function App() {
   const { theme } = useTheme()
+  const { user } = useUser()
+
+  useEffect(() => {
+    document.title = `${user.name} - Portfolio`
+  }, [user.name])
 
   return (
     <div className={`
