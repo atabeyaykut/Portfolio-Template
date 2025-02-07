@@ -3,14 +3,16 @@ import { useUser } from '../../../contextAPI/UserContext'
 import Socials from './Socials'
 import Cta from './cta';
 import Greetings from './Greetings';
+import { useTheme } from '../../../contextAPI/ThemeContext';
 
 function Hero() {
 
     const { user } = useUser();
+    const { theme } = useTheme();
 
     return (
-        <section className='flex flex-row items-center w-full h-full pt-4'>
-            <div className='flex-2 flex flex-col gap-y-4 text-xl/4 tracking-tight pl-20 pb-6'>
+        <section className={`flex flex-row items-center w-full h-full pt-4`}>
+            <div className='flex-2 flex flex-col gap-y-4 text-xl/4 pl-20 pb-6'>
 
                 <Greetings hero={user.heroSection} />
                 <Socials hero={user.heroSection} />
@@ -18,7 +20,7 @@ function Hero() {
 
             </div>
 
-            <div className='flex-1'>
+            <div className='flex-1  '>
                 <img
                     src={`/assets/${user.heroSection.profileImage}`}
                     alt={`Profile image of ${user.name}`}

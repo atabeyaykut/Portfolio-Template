@@ -6,7 +6,7 @@ function Footer() {
     const { user } = useUser()
 
     return (
-        <div>
+        <footer className="bg-gray-800 text-white p-4 text-center">
             <p>{user.footer.slogan}</p>
             <div>
                 {Object.values(user.footer.content.contacts).map((contact, index) => (
@@ -19,7 +19,7 @@ function Footer() {
                         key={index}>{contact.name}</a>
                 ))}
             </div>
-        </div>
+        </footer>
     )
 }
 

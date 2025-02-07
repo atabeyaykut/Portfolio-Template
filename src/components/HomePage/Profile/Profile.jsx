@@ -7,7 +7,7 @@ function Profile() {
 
     return (
         <div className='container mx-auto px-4 py-8'>
-            <h3 className='text-3xl font-semibold text-center mb-8'>
+            <h3 className='text-3xl font-semibold text-center pb-4 mb-8'>
                 {user.profile.basicInformation.title}
             </h3>
 
