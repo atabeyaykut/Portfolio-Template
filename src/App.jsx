@@ -27,7 +27,7 @@ function App() {
       pt-4
       font-sans 
       font-normal
-    `}>
+      `}>
       <Header />
       <HomePage />
       <Footer />
